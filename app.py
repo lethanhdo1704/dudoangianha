@@ -1,5 +1,7 @@
 import joblib
 import json
+import os                # <--- thêm dòng này
+import uvicorn           # <--- thêm dòng này
 from fastapi import FastAPI, Form, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
@@ -38,7 +40,7 @@ async def index(request: Request):
         "legal_statuses": CHOICES["legal_statuses"],
         "furniture_states": CHOICES["furniture_states"],
         "models": list(MODEL_PATHS.keys()),
-        "form_data": {},  # form trống lúc đầu
+        "form_data": {},
         "prediction": None
     })
 
@@ -100,3 +102,8 @@ async def predict(
             "model_choice": model_choice
         }
     })
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
+# Chạy ứng dụng với: uvicorn app:app --reload
