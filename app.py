@@ -1,9 +1,9 @@
 import joblib
 import json
-import os                # <--- thêm dòng này
-import uvicorn           # <--- thêm dòng này
+import os
+import uvicorn
 from fastapi import FastAPI, Form, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 import pandas as pd
 
@@ -43,6 +43,11 @@ async def index(request: Request):
         "form_data": {},
         "prediction": None
     })
+
+# --- Thêm GET /predict để redirect ---
+@app.get("/predict")
+async def predict_get():
+    return RedirectResponse(url="/")
 
 @app.post("/predict", response_class=HTMLResponse)
 async def predict(
@@ -106,4 +111,3 @@ async def predict(
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=port)
-# Chạy ứng dụng với: uvicorn app:app --reload
