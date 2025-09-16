@@ -1,0 +1,33 @@
+{
+    "house_directions": [
+        "Bắc",
+        "N/A",
+        "Nam",
+        "Tây",
+        "Tây - Bắc",
+        "Tây - Nam",
+        "Đông",
+        "Đông - Bắc",
+        "Đông - Nam"
+    ],
+    "balcony_directions": [
+        "Bắc",
+        "N/A",
+        "Nam",
+        "Tây",
+        "Tây - Bắc",
+        "Tây - Nam",
+        "Đông",
+        "Đông - Bắc",
+        "Đông - Nam"
+    ],
+    "legal_statuses": [
+        "Have certificate",
+        "Sale contract"
+    ],
+    "furniture_states": [
+        "Basic",
+        "Full",
+        "N/A"
+    ]
+}

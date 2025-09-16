@@ -1,0 +1,6 @@
+model,CV_R2_mean,CV_R2_std,MAE,RMSE,R2
+linear_regression,0.337,0.014,1.43,1.79,0.342
+ridge_regression,0.338,0.014,1.43,1.79,0.342
+random_forest,0.507,0.013,1.19,1.54,0.511
+gradient_boosting,0.511,0.012,1.18,1.53,0.521
+xgboost,0.502,0.01,1.2,1.55,0.51

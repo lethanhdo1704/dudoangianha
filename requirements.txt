@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+jinja2
+joblib
+xgboost
+gunicorn
+python-multipart
+scikit-learn==1.7.1
