@@ -1,0 +1,517 @@
+{
+    "An Giang": [
+        "N/A",
+        "Châu Đốc",
+        "Long Xuyên",
+        "Tịnh Biên"
+    ],
+    "Bà Rịa Vũng Tàu": [
+        "N/A",
+        "Bà Rịa",
+        "Châu Đức",
+        "Huyện Xuyên Mộc",
+        "Long Điền",
+        "Phú Mỹ",
+        "Thành phố Bà Rịa",
+        "Thành phố Vũng Tàu",
+        "Thị Xã Phú Mỹ",
+        "Thị xã Phú Mỹ",
+        "Vũng Tàu",
+        "Xuyên Mộc",
+        "Đất Đỏ"
+    ],
+    "Bình Dương": [
+        "N/A",
+        "Bàu Bàng",
+        "Bến Cát",
+        "Dĩ An",
+        "Thuận An",
+        "Thành phố Dĩ An",
+        "Thành phố Thuận An",
+        "Thành phố Thủ Dầu Một",
+        "Thành phố Tân Uyên",
+        "Thủ Dầu Một",
+        "Tân Uyên"
+    ],
+    "Bình Phước": [
+        "N/A",
+        "Bù Đăng",
+        "Chơn Thành",
+        "Thị xã Đồng Xoài",
+        "Đồng Xoài"
+    ],
+    "Bình Thuận": [
+        "N/A",
+        "Hàm Thuận Nam",
+        "La Gi",
+        "Phan Thiết",
+        "Thành phố Phan Thiết",
+        "Tánh Linh",
+        "Đảo Phú Quý"
+    ],
+    "Bình Định": [
+        "N/A",
+        "An Nhơn",
+        "Hoài Nhơn",
+        "Huyện Phù Cát",
+        "Phù Cát",
+        "Quy Nhơn",
+        "Thành phố Quy Nhơn"
+    ],
+    "Bạc Liêu": [
+        "N/A",
+        "Bạc Liêu",
+        "Huyện Vĩnh Lợi"
+    ],
+    "Bắc Giang": [
+        "N/A",
+        "Bắc Giang",
+        "Hiệp Hòa",
+        "Lạng Giang",
+        "Lục Ngạn",
+        "Việt Yên",
+        "Yên Dũng"
+    ],
+    "Bắc Ninh": [
+        "N/A",
+        "Bắc Ninh",
+        "Thuận Thành",
+        "Tiên Du",
+        "Từ Sơn",
+        "Yên Phong"
+    ],
+    "Bến Tre": [
+        "N/A",
+        "Bến Tre",
+        "Châu Thành",
+        "Chợ Lách",
+        "Thành phố Bến Tre"
+    ],
+    "Cà Mau": [
+        "N/A",
+        "Cà Mau",
+        "Trần Văn Thời"
+    ],
+    "Cần Thơ": [
+        "N/A",
+        "Bình Thủy",
+        "Cái Răng",
+        "Ninh Kiều",
+        "Phong Điền"
+    ],
+    "Gia Lai": [
+        "N/A",
+        "Chư Păh",
+        "Ia Grai",
+        "Plei Ku",
+        "Thành phố Plei Ku"
+    ],
+    "Hà Giang": [
+        "N/A",
+        "Thành phố Hà Giang"
+    ],
+    "Hà Nam": [
+        "N/A",
+        "Kim Bảng",
+        "Phủ Lý",
+        "Thanh Liêm"
+    ],
+    "Hà Nội": [
+        "N/A",
+        "Ba Vì",
+        "Ba Đình",
+        "Bắc Từ Liêm",
+        "Chương Mỹ",
+        "Cầu Giấy",
+        "Gia Lâm",
+        "Hai Bà Trưng",
+        "Hoài Đức",
+        "Hoàn Kiếm",
+        "Hoàng Mai",
+        "Huyện Chương Mỹ",
+        "Huyện Gia Lâm",
+        "Huyện Hoài Đức",
+        "Huyện Quốc Oai",
+        "Huyện Sóc Sơn",
+        "Huyện Thanh Oai",
+        "Huyện Thanh Trì",
+        "Huyện Thường Tín",
+        "Huyện Đan Phượng",
+        "Huyện Đông Anh",
+        "Hà Đông",
+        "Long Biên",
+        "Mê Linh",
+        "Nam Từ Liêm",
+        "Phú Xuyên",
+        "Phường Việt Hưng",
+        "Phường Đại Mỗ",
+        "Quận Ba Đình",
+        "Quận Hai Bà Trưng",
+        "Quận Hoàng Mai",
+        "Quận Hà Đông",
+        "Quận Long Biên",
+        "Quận Nam Từ Liêm",
+        "Quận Tây Hồ",
+        "Quốc Oai",
+        "Sóc Sơn",
+        "Sơn Tây",
+        "Thanh Oai",
+        "Thanh Trì",
+        "Thanh Xuân",
+        "Thường Tín",
+        "Thạch Thất",
+        "Tây Hồ",
+        "Đan Phượng",
+        "Đông Anh",
+        "Đống Đa",
+        "Ứng Hòa"
+    ],
+    "Hà Tĩnh": [
+        "N/A",
+        "Nghi Xuân",
+        "Thạch Hà"
+    ],
+    "Hòa Bình": [
+        "N/A",
+        "Huyện Kim Bôi",
+        "Huyện Lương Sơn",
+        "Hòa Bình",
+        "Lương Sơn",
+        "Lạc Thủy",
+        "Thành phố Hòa Bình"
+    ],
+    "Hưng Yên": [
+        "N/A",
+        "Huyện Khoái Châu",
+        "Huyện Văn Giang",
+        "Mỹ Hào",
+        "Văn Giang",
+        "Văn Lâm",
+        "Yên Mỹ"
+    ],
+    "Hải Dương": [
+        "N/A",
+        "Chí Linh",
+        "Hải Dương",
+        "Kinh Môn",
+        "Thanh Miện"
+    ],
+    "Hải Phòng": [
+        "N/A",
+        "An Dương",
+        "An Lão",
+        "Dương Kinh",
+        "Huyện An Dương",
+        "Huyện Thủy Nguyên",
+        "Hải An",
+        "Hồng Bàng",
+        "Kiến An",
+        "Kiến Thụy",
+        "Lê Chân",
+        "Ngô Quyền",
+        "Quận Hồng Bàng",
+        "Quận Kiến An",
+        "Quận Lê Chân",
+        "Thủy Nguyên",
+        "Vĩnh Bảo",
+        "Đồ Sơn"
+    ],
+    "Hậu Giang": [
+        "N/A",
+        "Phụng Hiệp"
+    ],
+    "Hồ Chí Minh": [
+        "N/A",
+        "Bình Chánh",
+        "Bình Thạnh",
+        "Bình Tân",
+        "Cần Giờ",
+        "Củ Chi",
+        "Gò Vấp",
+        "Huyện Bình Chánh",
+        "Huyện Cần Giờ",
+        "Hóc Môn",
+        "Nhà Bè",
+        "Phú Nhuận",
+        "Phường Bình Hưng Hòa  Tân",
+        "Quận 1",
+        "Quận 10",
+        "Quận 11",
+        "Quận 12",
+        "Quận 2",
+        "Quận 3",
+        "Quận 4",
+        "Quận 5",
+        "Quận 6",
+        "Quận 7",
+        "Quận 8",
+        "Quận 9",
+        "Quận Bình Tân",
+        "Quận Tân Bình",
+        "Quận Tân Phú",
+        "Thành phố Thủ Đức",
+        "Thủ Đức",
+        "Tân Bình",
+        "Tân Phú",
+        "quận Tân Bình"
+    ],
+    "Khánh Hòa": [
+        "N/A",
+        "Cam Lâm",
+        "Cam Ranh",
+        "Diên Khánh",
+        "Huyện Diên Khánh",
+        "Nha Trang",
+        "Ninh Hòa",
+        "Phường Cam Nghĩa",
+        "Thành phố Nha Trang",
+        "Vạn Ninh"
+    ],
+    "Kiên Giang": [
+        "N/A",
+        "Hà Tiên",
+        "Phú Quốc",
+        "Thành phố Hà Tiên",
+        "Thành phố Phú Quốc"
+    ],
+    "Kon Tum": [
+        "N/A",
+        "KonTum"
+    ],
+    "Long An": [
+        "N/A",
+        "Bến Lức",
+        "Châu Thành",
+        "Cần Giuộc",
+        "Cần Đước",
+        "Huyện Bến Lức",
+        "Huyện Đức Hòa",
+        "Thủ Thừa",
+        "Tân An",
+        "Tân Thạnh",
+        "Tân Trụ",
+        "Đức Hòa"
+    ],
+    "Lào Cai": [
+        "N/A",
+        "Lào Cai",
+        "Sa Pa",
+        "Thị xã Sa Pa"
+    ],
+    "Lâm Đồng": [
+        "N/A",
+        "Bảo Lâm",
+        "Bảo Lộc",
+        "Di Linh",
+        "Huyện Bảo Lâm",
+        "Huyện Lâm Hà",
+        "Huyện Đơn Dương",
+        "Lâm Hà",
+        "Đà Lạt",
+        "Đơn Dương",
+        "Đức Trọng"
+    ],
+    "Lạng Sơn": [
+        "N/A",
+        "Lạng Sơn"
+    ],
+    "Nam Định": [
+        "N/A",
+        "Giao Thủy",
+        "Nam Định",
+        "Nghĩa Hưng"
+    ],
+    "Nghệ An": [
+        "N/A",
+        "Thái Hòa",
+        "Vinh"
+    ],
+    "Ninh Bình": [
+        "N/A",
+        "Kim Sơn",
+        "Ninh Bình"
+    ],
+    "Ninh Thuận": [
+        "N/A",
+        "Ninh Hải",
+        "Phan Rang - Tháp Chàm",
+        "Thuận Nam"
+    ],
+    "Phú Thọ": [
+        "N/A",
+        "Hạ Hòa",
+        "Phú Thọ",
+        "Thanh Thủy",
+        "Việt Trì"
+    ],
+    "Phú Yên": [
+        "N/A",
+        "Sông Cầu",
+        "Tuy Hòa",
+        "Đông Hòa"
+    ],
+    "Quảng Bình": [
+        "N/A",
+        "Quảng Trạch"
+    ],
+    "Quảng Nam": [
+        "N/A",
+        "Duy Xuyên",
+        "Hội An",
+        "Núi Thành",
+        "Tam Kỳ",
+        "Điện Bàn"
+    ],
+    "Quảng Ngãi": [
+        "N/A",
+        "Lý Sơn",
+        "Quảng Ngãi"
+    ],
+    "Quảng Ninh": [
+        "N/A",
+        "Cẩm Phả",
+        "Huyện Vân Đồn",
+        "Hạ Long",
+        "Móng Cái",
+        "Thành phố Cẩm Phả",
+        "Thành phố Hạ Long",
+        "Thành phố Móng Cái",
+        "Uông Bí",
+        "Vân Đồn"
+    ],
+    "Quảng Trị": [
+        "N/A",
+        "Thành phố Đông Hà",
+        "Đông Hà"
+    ],
+    "Sóc Trăng": [
+        "N/A",
+        "Sóc Trăng"
+    ],
+    "Sơn La": [
+        "N/A",
+        "Mai Sơn",
+        "Mộc Châu"
+    ],
+    "Thanh Hóa": [
+        "N/A",
+        "Hoằng Hóa",
+        "Sầm Sơn",
+        "Thanh Hóa",
+        "Thành phố Thanh Hóa",
+        "Thạch Thành",
+        "Đông Sơn"
+    ],
+    "Thái Bình": [
+        "N/A",
+        "Thái Bình",
+        "Thái Thuỵ",
+        "Đông Hưng"
+    ],
+    "Thái Nguyên": [
+        "N/A",
+        "Phổ Yên",
+        "Sông Công",
+        "Thái Nguyên"
+    ],
+    "Thừa Thiên Huế": [
+        "N/A",
+        "Huế",
+        "Hương Thủy",
+        "Hương Trà"
+    ],
+    "Tiền Giang": [
+        "N/A",
+        "Cai Lậy",
+        "Châu Thành",
+        "Chợ Gạo",
+        "Gò Công",
+        "Mỹ Tho"
+    ],
+    "Trà Vinh": [
+        "N/A",
+        "Châu Thành",
+        "Trà Vinh"
+    ],
+    "Tuyên Quang": [
+        "N/A",
+        "Sơn Dương"
+    ],
+    "Tây Ninh": [
+        "N/A",
+        "Dương Minh Châu",
+        "Gò Dầu",
+        "Huyện Dương Minh Châu",
+        "Hòa Thành",
+        "Trảng Bàng",
+        "Tây Ninh"
+    ],
+    "Vĩnh Long": [
+        "N/A",
+        "Bình Minh",
+        "Long Hồ",
+        "Vĩnh Long"
+    ],
+    "Vĩnh Phúc": [
+        "N/A",
+        "Bình Xuyên",
+        "Huyện Yên Lạc",
+        "Phúc Yên",
+        "Tam Đảo",
+        "Vĩnh Tường",
+        "Vĩnh Yên"
+    ],
+    "Yên Bái": [
+        "N/A",
+        "Nghĩa Lộ",
+        "Yên Bái"
+    ],
+    "Điện Biên": [
+        "N/A",
+        "Thành phố Điện Biên Phủ",
+        "Điện Biên Phủ"
+    ],
+    "Đà Nẵng": [
+        "N/A",
+        "Cẩm Lệ",
+        "Hòa Vang",
+        "Hải Châu",
+        "Liên Chiểu",
+        "Ngũ Hành Sơn",
+        "Quận Cẩm Lệ",
+        "Quận Hải Châu",
+        "Quận Liên Chiểu",
+        "Quận Ngũ Hành Sơn",
+        "Quận Thanh Khê",
+        "Sơn Trà",
+        "Thanh Khê"
+    ],
+    "Đắk Lắk": [
+        "N/A",
+        "Buôn Ma Thuột",
+        "Cư Kuin",
+        "Cư M'gar",
+        "Ea Kar",
+        "Thành phố Buôn Ma Thuột"
+    ],
+    "Đồng Nai": [
+        "N/A",
+        "Biên Hòa",
+        "Huyện Long Thành",
+        "Huyện Nhơn Trạch",
+        "Long Khánh",
+        "Long Thành",
+        "Nhơn Trạch",
+        "Thành phố Biên Hòa",
+        "Thống Nhất",
+        "Trảng Bom",
+        "Vĩnh Cửu",
+        "Xuân Lộc",
+        "Định Quán"
+    ],
+    "Đồng Tháp": [
+        "N/A",
+        "Cao Lãnh",
+        "Sa Đéc"
+    ]
+}

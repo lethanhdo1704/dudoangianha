@@ -92,13 +92,25 @@
     <div class="header">
       <h2>Dự đoán giá nhà đất Việt Nam</h2>
     </div>
-    <!-- Form chắc chắn dùng POST -->
+
     <form method="post" action="/predict">
+      <!-- Province -->
       <div>
         <label>Tỉnh/Thành phố:</label>
-        <select name="province" required>
+        <select id="province" name="province" required onchange="updateCities()">
           {% for p in provinces %}
             <option value="{{p}}" {% if form_data.province==p %}selected{% endif %}>{{p}}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <!-- City -->
+      <div>
+        <label>Quận/Huyện:</label>
+        <select id="city" name="city" required>
+          {% set selected_province = form_data.province or provinces[0] %}
+          {% for c in locations[selected_province] %}
+            <option value="{{c}}" {% if form_data.city==c %}selected{% endif %}>{{c}}</option>
           {% endfor %}
         </select>
       </div>
@@ -189,5 +201,23 @@
       </div>
     {% endif %}
   </div>
+
+  <script>
+    // Đổi tên biến để tránh trùng lặp
+    const LOCATIONS_DATA = {{ locations|tojson }};
+    function updateCities() {
+      const provinceSelect = document.getElementById("province");
+      const citySelect = document.getElementById("city");
+      const selectedProvince = provinceSelect.value;
+
+      citySelect.innerHTML = "";
+      LOCATIONS_DATA[selectedProvince].forEach(city => {
+        const opt = document.createElement("option");
+        opt.value = city;
+        opt.textContent = city;
+        citySelect.appendChild(opt);
+      });
+    }
+  </script>
 </body>
 </html>

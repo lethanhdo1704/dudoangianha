@@ -10,9 +10,10 @@ import pandas as pd
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
-# Load provinces
-with open("provinces.json", "r", encoding="utf-8") as f:
-    PROVINCES = json.load(f)
+# Load provinces và cities
+with open("locations.json", "r", encoding="utf-8") as f:
+    LOCATIONS = json.load(f)
+PROVINCES = sorted(LOCATIONS.keys())
 
 # Load choices
 with open("choices.json", "r", encoding="utf-8") as f:
@@ -35,6 +36,7 @@ async def index(request: Request):
     return templates.TemplateResponse("index.html", {
         "request": request,
         "provinces": PROVINCES,
+        "locations": LOCATIONS,
         "house_directions": CHOICES["house_directions"],
         "balcony_directions": CHOICES["balcony_directions"],
         "legal_statuses": CHOICES["legal_statuses"],
@@ -44,15 +46,11 @@ async def index(request: Request):
         "prediction": None
     })
 
-# --- Thêm GET /predict để redirect ---
-@app.get("/predict")
-async def predict_get():
-    return RedirectResponse(url="/")
-
 @app.post("/predict", response_class=HTMLResponse)
 async def predict(
     request: Request,
     province: str = Form(...),
+    city: str = Form(...),
     area: float = Form(...),
     frontage: float = Form(...),
     access_road: float = Form(...),
@@ -66,8 +64,10 @@ async def predict(
     model_choice: str = Form(...)
 ):
     model = load_model(model_choice)
+
     input_data = {
         "Province": [province],
+        "City": [city],
         "Area": [area],
         "Frontage": [frontage],
         "Access Road": [access_road],
@@ -86,6 +86,7 @@ async def predict(
     return templates.TemplateResponse("index.html", {
         "request": request,
         "provinces": PROVINCES,
+        "locations": LOCATIONS,
         "house_directions": CHOICES["house_directions"],
         "balcony_directions": CHOICES["balcony_directions"],
         "legal_statuses": CHOICES["legal_statuses"],
@@ -94,6 +95,7 @@ async def predict(
         "prediction": f"{prediction:.2f} tỷ VNĐ",
         "form_data": {
             "province": province,
+            "city": city,
             "area": area,
             "frontage": frontage,
             "access_road": access_road,
